@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=400, initial-scale=1">
+    <meta name="viewport" content="width=400, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="3ds.css" /> 
     <style>
       body { margin: 0px; }
       #topscreen { width: 400px; height: 215px; overflow: hidden; background-color: red; }
@@ -11,5 +12,12 @@
   <body>
     <div id="topscreen">Top Screen</div>
     <div id="bottomscreen">Bottom Screen</div>
+    <h1>This website is meant for the 3ds browser.</h1>
+    <h1>Click <a href="https://mheftie.com">here</a> to return to the regular website</h1>
   </body>
+  <script type="text/javascript">
+    window.setInterval(function() {
+    window.scrollTo(40, 215);
+    }, 0);
+</script>
 </html>
