@@ -12,6 +12,10 @@ def index():
 def notfound(e):
     return render_template('404.html')
 
+@app.route('/resume')
+def resume():
+    return send_file('static/resume.pdf')
+
 @app.route('/wallpaper')
 def getwallpaper():
     url = request.args.get('url')
