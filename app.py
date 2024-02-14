@@ -9,7 +9,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/3ds')
-def index():
+def threeds():
     return render_template('3ds.html')
 
 @app.errorhandler(404)
